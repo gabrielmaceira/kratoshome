@@ -1,0 +1,164 @@
+@font-face { 
+  font-family: 'Liberation Serif Bold';
+  src: url('../../font/LiberationSerif-Bold.woff') format('woff');
+  }
+
+.titulo_cards {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left; 
+  color: rgba(22, 41, 84, 1);
+
+}
+
+.titulo_cards > a{
+  text-decoration: none;
+}
+
+.header_cards {
+  font-family: 'Liberation Serif Bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 45px;
+  color: rgba(22, 41, 84, 1);
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.header_cards:before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  top: 91px;
+  border-bottom: 0.8px solid currentColor;
+  margin-left: 0.9em;
+  margin-top: 10px;
+}
+
+.card_body {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(22, 41, 84, 1);
+  flex-grow: 1;
+
+}
+
+.card_body p {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(22, 41, 84, 1);
+  flex-grow: 1;
+}
+  
+.card_body h2 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.card_body h3 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 480px) {
+  .card_body p {
+    font-size: 14px;
+  }
+  
+  .card_body h2 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+  .card_body h3 {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+  .titulo_cards {
+  font-size: 16px;
+  }
+}
+
+.card_body > a{
+  text-decoration: none;
+}
+
+.leer_mas {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(46, 76, 156, 1);
+  text-align: right;
+  margin-top:auto;
+  background: none !important;
+}
+
+a {
+  background: none !important;
+}
+
+.leer_mas:hover {
+  color: rgba(213, 186, 79, 1);
+  stroke: rgba(213, 186, 79, 1);
+  text-decoration: none !important;
+
+}
+
+.flecha{
+  color: rgba(213, 186, 79, 1);
+  stroke: rgba(213, 186, 79, 1);
+
+}
+
+.leer_mas:hover .flecha_dorada{
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.leer_mas:hover .flecha_azul{
+  display: none;
+  
+}
+
+.flecha_dorada {
+  display: none;
+}
+
+.cards {
+  background-color: #FCFBF4;
+}
+
+.logo-temas {
+  align-items: center;
+  top: -15px;
+}
+
+.cardPublicacion {
+  box-shadow: 0px 4px 4px rgba(22, 41, 84, 0.25);
+}
+
+.hover_scale:hover {
+  transform: scale(1.03);
+  transition: transform 330ms ease-in-out;
+}

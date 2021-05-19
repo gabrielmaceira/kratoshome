@@ -1,0 +1,513 @@
+@font-face {
+  font-family: 'Mermaid';
+  src: url("../../font/Mermaid1001.ttf"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #162954; }
+  * h1,
+  * h2,
+  * h3 {
+    font-family: "Mermaid"; }
+
+@media (max-width: 500px) {
+  main#main__home section.container-fluid h3.main__titulo {
+    font-size: 27px; }
+  main#main__home section.container-fluid h2.h2__contenedorServicio {
+    font-size: 18px; }
+  main#main__home section.container-fluid p {
+    font-size: 14px; }
+  main#main__home section#servicios a#seccionServicios__link {
+    font-size: 14px; }
+  footer#contacto p.homeFooter__p, footer#contacto a.homeFooter__a {
+    font-size: 14px; } }
+    footer#contacto p.homeFooter__p {
+      margin-top: 0em;
+      margin-bottom: 0.1em;
+    }
+    .homeFooter__space {
+      margin-bottom: 0.9em;
+    }
+header#contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+  header#contenedor p#slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family: "Mermaid";
+    font-size: 52px;
+    letter-spacing: 2px; }
+  header#contenedor .navbar--transparente {
+    background-color: transparent;
+    margin: 0 auto; }
+  header#contenedor .navbar--azul {
+    background-color: rgba(22, 41, 84, 0.9);
+    padding-top: 0px; }
+  header#contenedor nav#menu div#navbarSupportedContent ul {
+    margin: 0 auto; }
+  header#contenedor nav#menu a.homeNavbar__link {
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 1.5px; }
+  header#contenedor nav#menu a#enlaceHome {
+    border-left: none;
+    border-right: none;
+    outline: none; }
+  header#contenedor nav#menu a.homeNavbar__link:hover,
+  header#contenedor nav#menu a.homeNavbar__link:focus {
+    color: #D5BA4F;
+    border-bottom: 2px solid;
+    padding-top: 3px;
+    padding-bottom: 3px; }
+  header#contenedor nav#menu a.navbar-brand {
+    border: none; }
+  header#contenedor nav#menu img.navbar__logo {
+    width: 322px;
+    height: auto; }
+  header#contenedor nav#menu ul#navbar__lista {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%; }
+    header#contenedor nav#menu ul#navbar__lista li.navbarLista__item {
+      margin: 1.7%; }
+  header#contenedor nav#menu .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(213, 186, 79, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    max-height: 23px;
+  }
+    header#contenedor nav#menu .custom-toggler.navbar-toggler {
+    outline: none; } 
+
+  header#contenedor div.header__contenedorImgSlogan {
+    margin: 0px; }
+
+@media (min-width: 1366px) {
+  header#contenedor img#header__imgParlamento {
+    width: 100vw;
+    height: auto; } }
+
+@media (max-width: 1300px) {
+  header#contenedor p#slogan {
+    font-size: 30px; } }
+
+@media (max-width: 1195px) {
+  header#contenedor p#slogan {
+    font-size: 25px; }
+  header#contenedor nav#menu a.homeNavbar__link {
+    font-size: 10px; } }
+
+@media (max-width: 992px) {
+  header#contenedor nav#menu img.navbar__logo {
+    width: 230px;
+    height: auto; }
+  header#header__servicios nav.servicios__navbar--blanco div#navbarSupportedContent ul {
+    margin: 0 auto; }  
+  header#contenedor nav#menu a.homeNavbar__link {
+    color: #D5BA4F; } }
+
+@media (max-width: 500px) {
+  header#contenedor p#slogan {
+    font-size: 18px;
+    line-height: 1.2; 
+  padding-top: 2em;} }
+
+@media (max-width: 325px) {
+  header#contenedor nav#menu img.navbar__logo {
+    width: 170px;
+    height: auto; } }
+
+main#main__home h3.main__titulo {
+  font-size: 45px;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+  margin-bottom: 3.5%;
+  margin-top: 6%; }
+
+main#main__home a.seccionServicios__link,
+main#main__home p.p__home {
+  font-size: 16px; }
+
+main#main__home img.main__logoTransicion {
+  width: 50px;
+  height: auto; }
+
+main#main__home section#nosotros {
+  background-color: #FCFBF4;
+  padding-bottom: 3.5%; }
+  main#main__home section#nosotros div.nosotros__contenedorFlexible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+
+main#main__home section#servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 8%; }
+  main#main__home section#servicios img.main__logoTransicion {
+    position: absolute;
+    top: -2%; }
+  main#main__home section#servicios div.servicios__contenedorServicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(22, 41, 84, 0.25);
+    margin: 0.5%; }
+    main#main__home section#servicios div.servicios__contenedorServicio h2.h2__contenedorServicio {
+      text-align: center;
+      font-size: 22px;
+      margin-bottom: 5%; }
+    main#main__home section#servicios div.servicios__contenedorServicio h2#electoral {
+      margin-bottom: 8%; }
+    main#main__home section#servicios div.servicios__contenedorServicio img.img-servicios {
+      width: 81px;
+      height: auto; }
+  main#main__home section#servicios div.servicios__contenedorServicio p.p__home {
+    text-align: justify;
+    margin-bottom: 5%;
+  }  
+
+  main#main__home section#servicios div.servicios__contenedorServicio:hover {
+    transform: scale(1.03);
+    transition: transform 330ms ease-in-out; }
+  main#main__home section#servicios a.seccionServicios__link {
+    text-decoration: none;
+    color: #162954;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    position: fixed;
+    bottom: 0; }
+  main#main__home section#servicios a.seccionServicios__link:hover {
+    color: #D5BA4F; }
+
+@media (max-width: 993px) {
+  main#main__home section#servicios div.servicios__contenedorServicio {
+    margin: 8% auto;
+    width: 80vw; }
+    main#main__home section#servicios div.servicios__contenedorServicio h2.h2__contenedorServicio {
+      margin-bottom: 2%;
+      width: 90%;
+      font-size: 20px; }
+    main#main__home section#servicios div.servicios__contenedorServicio h2#electoral {
+      margin-bottom: 2%; }
+    main#main__home section#servicios div.servicios__contenedorServicio img.img-servicios {
+      width: 40px;
+      height: auto; }
+    main#main__home section#servicios div.servicios__contenedorServicio p.p__home {
+      width: 90%;
+      margin-bottom: 15%; } }
+
+main#main__home section#articulos {
+  background-color: #FCFBF4;
+  padding-bottom: 3.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+  main#main__home section#articulos img.main__logoTransicion {
+    position: absolute;
+    top: -2%; }
+
+@media (max-width: 600px) {
+  main#main__home section#articulos img.main__logoTransicion,
+  main#main__home section#servicios img.main__logoTransicion {
+    width: 30px;
+    height: auto; }
+  main#main__home section#servicios img.main__logoTransicion {
+    top: -0.8%; 
+  } 
+  main#main__home section#articulos img.main__logoTransicion {
+    position: absolute;
+    top: -4%; }
+  .main__logoTransicion_art {
+    padding-top: 1.4em !important;
+  }
+  }
+
+footer {
+  position: relative; }
+  footer div#footer__contenedorInfo {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    footer div#footer__contenedorInfo div#contenedorInfo__Redes {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: rgba(255, 255, 255, 0.7);
+      margin-right: 5%;
+      border-radius: 6px; }
+      footer div#footer__contenedorInfo div#contenedorInfo__Redes p.homeFooter__p {
+        font-size: 16px; }
+      footer div#footer__contenedorInfo div#contenedorInfo__Redes span.homeFooter__space{
+        margin-top: 5%;
+        margin-left: 5%;        
+      }  
+      footer div#footer__contenedorInfo div#contenedorInfo__Redes a.homeFooter__a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #162954;
+        margin-bottom: 2%;
+        margin-left: 5%; }
+        footer div#footer__contenedorInfo div#contenedorInfo__Redes a.homeFooter__a img.homeFooter__img {
+          margin-right: 10px; }
+    footer div#footer__contenedorInfo form#contenedorInfo__formulario {
+      padding: 0; }
+      footer div#footer__contenedorInfo form#contenedorInfo__formulario input,
+      footer div#footer__contenedorInfo form#contenedorInfo__formulario textarea {
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 16px; }
+      footer div#footer__contenedorInfo form#contenedorInfo__formulario div#formulario__contenedorBoton {
+        text-align: center; }
+        #formulario__boton {
+          background-color: #FFFFFF;
+          color: #162954;
+          font-weight: 700;
+          font-size: 18px;
+          border-radius: 10px;
+          padding-left: 50px;
+          padding-right: 50px;
+          margin-top: 20px; }
+
+@media (max-width: 500px) {
+  #formulario__boton {
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer#contacto {
+    position: static;
+    background-image: url(../../img/congreso2.jpg);
+    background-size: cover; }
+    footer#contacto img#footer__imgFondo {
+      display: none; }
+    footer#contacto div#footer__contenedorInfo {
+      display: flex;
+      flex-direction: column;
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none; }
+      footer#contacto div#footer__contenedorInfo div#contenedorInfo__Redes {
+        margin: 2% auto 4% auto;
+        padding-bottom: 1%; }
+      footer#contacto div#footer__contenedorInfo form#contenedorInfo__formulario input,
+      footer#contacto div#footer__contenedorInfo form#contenedorInfo__formulario textarea {
+        font-size: 14px; }
+      footer#contacto div#footer__contenedorInfo form#contenedorInfo__formulario div#formulario__contenedorBoton button#formulario__boton {
+        font-size: 14px; } }
+
+header#header__servicios nav.servicios__navbar--blanco {
+  background-color: #FFFFFF;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 2%; }
+  header#header__servicios nav.servicios__navbar--blanco a.navbar-brand img#serviciosNavbar__logo {
+    width: 307px;
+    height: auto; }
+  header#header__servicios nav.servicios__navbar--blanco a.navbar-brand:hover {
+    border: none; }
+  header#header__servicios nav.servicios__navbar--blanco .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(213, 186, 79, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+    max-height: 23px;
+  }
+
+  header#header__servicios nav.servicios__navbar--blanco .custom-toggler.navbar-toggler {
+  outline: none; } 
+  header#header__servicios nav.servicios__navbar--blanco ul#serviciosNavbar__lista {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%; }
+    header#header__servicios nav.servicios__navbar--blanco ul#serviciosNavbar__lista li {
+      margin: 0 3% 0 3%; }
+      header#header__servicios nav.servicios__navbar--blanco ul#serviciosNavbar__lista li a.serviciosNavbar__link {
+        color: #162954;
+        font-family: "Roboto", sans-serif; }
+      header#header__servicios nav.servicios__navbar--blanco ul#serviciosNavbar__lista li a.serviciosNavbar__link:hover {
+        color: #D5BA4F;
+        border-bottom: 2px solid;
+        padding-top: 3px;
+        padding-bottom: 3px; }
+    header#header__servicios nav.servicios__navbar--blanco ul#serviciosNavbar__lista li#li__servicios a#enlaceHome {
+      outline: none; }
+
+@media (max-width: 1195px) {
+  header#header__servicios nav.servicios__navbar--blanco a.serviciosNavbar__link {
+    font-size: 10px; } }
+
+@media (max-width: 992px) {
+  header#header__servicios nav.servicios__navbar--blanco a.navbar-brand img#serviciosNavbar__logo {
+    width: 230px;
+    height: auto; }
+  header#header__servicios nav.servicios__navbar--blanco div#navbarSupportedContent ul {
+    margin: 0 auto; } }
+
+@media (max-width: 325px) {
+  header#header__servicios nav.servicios__navbar--blanco a.navbar-brand img#serviciosNavbar__logo {
+    width: 170px;
+    height: auto; } }
+
+main#main__servicios {
+  margin-top: 7%; }
+  main#main__servicios div.contenedorTitulos {
+    text-align: center; }
+    main#main__servicios div.contenedorTitulos h1.h1__servicios {
+      font-size: 38px;
+      border-bottom: 2px solid;
+      display: inline-block;
+      margin-top: 6%; }
+    main#main__servicios div.contenedorTitulos h2.h2__servicios {
+      font-size: 30px;
+      margin-top: 5%; }
+      main#main__servicios div.contenedorTitulos h2.h2__servicios img {
+        width: 46px;
+        height: auto;
+        margin-right: 1%; }
+  main#main__servicios h3.h3__servicios {
+    font-size: 22px;
+    margin-top: 3%;
+    border: none;
+    margin-bottom: 1%; }
+  main#main__servicios p.p__servicios {
+    font-size: 16px; }
+
+    #servicios__botonContacto {
+    align-self: center;
+    display: block;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center; 
+    padding: 0.5% 8% 0.5% 8%;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+    #servicios__botonContacto a {
+      background: #162954 !important;
+      padding: 0.5% 8% 0.5% 8%;
+      border-radius: 10px;
+      color: #FFFFFF;
+      text-decoration: none; }
+      main#main__servicios div#servicios__botonContacto a:hover {
+        text-decoration: none;
+        color: #FFFFFF; }
+
+        main#main__servicios div#servicios__botonContacto:hover {
+          text-decoration: none;
+          color: #FFFFFF; }
+
+    .centered {
+      text-align: center;
+    }
+
+@media (max-width: 993px) {
+  main#main__servicios div.contenedorTitulos h2.h2__servicios img.img__servicios {
+    width: 35px;
+    height: auto; } }
+
+@media (max-width: 600px) {
+  main#main__servicios div.contenedorTitulos h1.h1__servicios {
+    font-size: 28px;
+    margin-top: 15%; }
+  main#main__servicios div.contenedorTitulos h2.h2__servicios {
+    font-size: 18px;
+    margin-bottom: 30px; }
+  main#main__servicios h3.h3__servicios {
+    font-size: 17px; }
+  main#main__servicios p.p__servicios {
+    font-size: 13px; } }
+
+@media (max-width: 337px) {
+  main#main__servicios div.contenedorTitulos h1.h1__servicios {
+    font-size: 22px;
+    margin-top: 25%; } }
+
+footer#contacto__servicios {
+  position: relative; }
+  footer#contacto__servicios div#footer__contenedorInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 4%; }
+    footer#contacto__servicios div#footer__contenedorInfo div#redes {
+      display: flex;
+      flex-direction: column; }
+      footer#contacto__servicios div#footer__contenedorInfo div#redes a.serviciosFooter__a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #162954;
+        margin-bottom: 2%; }
+        footer#contacto__servicios div#footer__contenedorInfo div#redes a.serviciosFooter__a img.serviciosFooter__img {
+          margin-right: 10px; }
+    footer#contacto__servicios div#footer__contenedorInfo div#info {
+      font-size: 16px; }
+
+@media (max-width: 767px) {
+  footer#contacto__servicios {
+    position: static;
+    background-image: url(../../img/congreso2.jpg);
+    background-size: cover; }
+    footer#contacto__servicios img#serviciosFooter__imgFondo {
+      display: none; }
+    footer#contacto__servicios div#footer__contenedorInfo {
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none;
+      font-size: 14px;
+      margin-top: 2%; }
+      footer#contacto__servicios div#footer__contenedorInfo div#redes a.serviciosFooter__a {
+        font-size: 14px; } }
+
+@media (max-width: 450px) {
+  #contacto__servicios {
+    padding: 2em;
+  }
+  footer#contacto__servicios div#footer__contenedorInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+  } }
+
+@media (max-width: 337px) {
+  footer#contacto__servicios div#footer__contenedorInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+
+
+
+    #enlaceServicios1{
+      color: #D5BA4F !important;
+      border-bottom: 2px solid !important;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+
+    #enlaceArticulos1{
+      color: #D5BA4F !important;
+      border-bottom: 2px solid !important;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
