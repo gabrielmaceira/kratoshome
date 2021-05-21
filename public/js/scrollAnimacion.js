@@ -56,7 +56,7 @@ sr.reveal('.h2__servicios', {
 
     duration: 1000,
     origin: 'right',
-    distance: '300px'
+    distance: '200px'
 
 });    
 
@@ -64,7 +64,7 @@ sr.reveal('.h1__servicios', {
 
     duration: 500,
     origin: 'top',
-    distance: '300px'
+    distance: '200px'
 
 }); 
 
@@ -104,7 +104,7 @@ sr.reveal('.main__titulo', {
 
     duration: 1000,
     origin: 'bottom',
-    distance: '800px'
+    distance: '300px'
 
 });
 
@@ -112,7 +112,7 @@ sr.reveal('#seccionNosotros__p', {
 
     duration: 2000,
     origin: 'bottom',
-    distance: '800px'
+    distance: '300px'
 
 });    
 

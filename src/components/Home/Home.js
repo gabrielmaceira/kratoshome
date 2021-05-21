@@ -125,7 +125,7 @@ export const Home = () => {
                 necesarias para plasmar los requerimientos en cumplimiento al marco normativo, en relación a obligaciones
                 contables, consultoría legal, aporte público o modificación de Cartas Orgánicas, entre otras.
           </p>
-          <a href="/servicios#servicios__museo" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
+              <a href="/servicios#servicios__museo" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
             </div>
             {/* <!-- segundo servicio  --> */}
             <div className="servicios__contenedorServicio col-lg">
@@ -137,7 +137,7 @@ export const Home = () => {
                 de campaña, así como el seguimiento para el cumplimiento de las obligaciones normativas del calendario
                 electoral.
           </p>
-          <a href="/servicios#servicios__elecciones" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
+              <a href="/servicios#servicios__elecciones" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
             </div>
             {/* <!-- tercer servicio --> */}
             <div className="servicios__contenedorServicio col-lg">
@@ -147,10 +147,10 @@ export const Home = () => {
                 Ofrecemos asesoramiento en el diseño y elaboración de políticas públicas en materia electoral para los
                 distintos niveles de gobierno como así también para las organizaciones de la sociedad civil.
           </p>
-          <a href="/servicios#servicios__redaccion" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
+              <a href="/servicios#servicios__redaccion" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
             </div>
           </div>
-          
+
 
         </section>
 
@@ -168,9 +168,9 @@ export const Home = () => {
       </main>
       {/*   <!------------------------------------------------------------FOOTER------------------------------------------------------------------------>
   <!--_____________________________________________________________________________________________________________________________________ -->
-   */}<footer id="contacto">
+   */}<footer id="contacto" classname='pt-2'>
 
-        <img src="img/congreso2.jpg" alt="" className="img-fluid" id="footer__imgFondo" />
+        <img src="img/congreso22.jpg" alt="" className="img-fluid" id="footer__imgFondo" />
 
         <div className="container d-flex p-2 bd-highlight flex-sm-column flex-md-row" id="footer__contenedorInfo">
 
