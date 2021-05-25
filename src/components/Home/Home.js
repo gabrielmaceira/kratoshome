@@ -118,36 +118,32 @@ export const Home = () => {
             <div className="servicios__contenedorServicio col-lg">
               <img src="img/museo.svg" alt="" className="img-servicios" />
               <h2 className="h2__contenedorServicio">Constitución y Desenvolvimiento Institucional de Partido Políticos</h2>
-              <p className="p__home">
-                Brindamos asesoramiento en la creación de partidos políticos y en el cumplimiento de las obligaciones que
-                contraen luego de su constitución, otorgando herramientas que permitan resolver posibles problemáticas en el
-                desarrollo institucional. Dentro de los aspectos técnicos jurídico-contables, se brindarán las herramientas
-                necesarias para plasmar los requerimientos en cumplimiento al marco normativo, en relación a obligaciones
-                contables, consultoría legal, aporte público o modificación de Cartas Orgánicas, entre otras.
+              <p className="p__home  pb-5">
+                Brindamos asesoramiento en la creación de partidos políticos y en el cumplimiento de las obligaciones jurídico-contables que contraen luego de su constitución, otorgando herramientas que permitan resolver posibles problemáticas en el desarrollo institucional.
           </p>
-              <a href="/servicios#servicios__museo" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
+              <a href="/servicios#servicios__museo" className="row align-self-end seccionServicios__link  pb-2 pr-4">LEER MÁS →</a>
             </div>
             {/* <!-- segundo servicio  --> */}
             <div className="servicios__contenedorServicio col-lg">
               <img src="img/elecciones.svg" alt="" className="img-servicios" />
               <h2 id="electoral" className="h2__contenedorServicio">Proceso Electoral</h2>
-              <p className="p__home">
+              <p className="p__home pt-3 pb-5">
                 Otorgamos durante el proceso electoral un asesoramiento en la redacción de Actas Constitutivas de Alianzas,
                 análisis personalizado de cláusulas específicas conforme lo requerido por la parte, elaboración de informes
                 de campaña, así como el seguimiento para el cumplimiento de las obligaciones normativas del calendario
                 electoral.
           </p>
-              <a href="/servicios#servicios__elecciones" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
+              <a href="/servicios#servicios__elecciones" className="row align-self-end seccionServicios__link pb-2 pr-4">LEER MÁS →</a>
             </div>
             {/* <!-- tercer servicio --> */}
             <div className="servicios__contenedorServicio col-lg">
               <img src="img/redaccion.svg" alt="" className="img-servicios" />
               <h2 className="h2__contenedorServicio">Diseño y Elaboración de Políticas Públicas</h2>
-              <p className="p__home">
+              <p className="p__home pt-4  pb-5">
                 Ofrecemos asesoramiento en el diseño y elaboración de políticas públicas en materia electoral para los
                 distintos niveles de gobierno como así también para las organizaciones de la sociedad civil.
           </p>
-              <a href="/servicios#servicios__redaccion" className="row align-self-end seccionServicios__link">LEER MÁS →</a>
+              <a href="/servicios#servicios__redaccion" className="row align-self-end seccionServicios__link pb-2 pr-4">LEER MÁS →</a>
             </div>
           </div>
 
@@ -181,7 +177,7 @@ export const Home = () => {
             </span>
             <a href="https://www.instagram.com/consultoreskratos/" className="homeFooter__a"><img src="img/instagram.png" alt="" className="homeFooter__img" />consultoreskratos</a>
             <a href="https://twitter.com/Consult_Kratos" className="homeFooter__a"><img src="img/twitter.png" alt="" className="homeFooter__img" />@Consult_Kratos</a>
-            <a href="" className="homeFooter__a"><img src="img/linkedin.png" alt="" className="homeFooter__img" />Consultoria Kratos</a>
+            <a href="https://www.linkedin.com/in/consultores-kratos-335511213" className="homeFooter__a"><img src="img/linkedin.png" alt="" className="homeFooter__img" />Consultores Kratos</a>
           </div>
 
           <Mailer />

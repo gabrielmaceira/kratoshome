@@ -50,12 +50,12 @@ export const Servicios = () => {
       </header>
 
       <main id="main__servicios" className="container">
-        <div className="contenedorTitulos pt-5" id="servicios__museo">
+{/*         <div className="contenedorTitulos pt-5" id="servicios__museo">
           <h1 className="h1__servicios">Ejes principales</h1>
-        </div>
+        </div> */}
 
         {/* <!-----------------------------------------------------------------------------------------------------------------------------------------------------------------------> */}
-        <div className="contenedorTitulos" >
+        <div className="contenedorTitulos pt-5" id="servicios__museo">
           <h2 className="h2__servicios"><img src="img/museo.svg" alt="" className="img__servicios"/>Constitución y Desenvolvimiento Institucional de Partido Políticos</h2>
         </div>
 
